@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de imagem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="anonascimento">
+            Ano de Nascimento <input type="number" id="anon" min="0">
+        </div>
+        <div id="sexo">
+            <p>Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc"> Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+        </div>
+        <div>
+           <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="resultado">
+            <p> <center> Preencha os dados acima para ver o resultado</p>
+            </div></center>   </p>
+        <div id="foto">
+
+        </div>
+
+    </section>
+    <footer>
+        <p>ExerciciosJS</p>
+    </footer>
+    
+</body>
+</html>
